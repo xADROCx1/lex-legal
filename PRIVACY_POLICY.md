@@ -1,4 +1,4 @@
-# Lex ‚Äî Privacy Policy
+# Lex -- Privacy Policy
 
 **Effective date:** April 30, 2026
 **Last updated:** May 3, 2026
@@ -23,15 +23,15 @@ data.
 There are exactly two situations in which any data leaves your
 device, and both are covered in detail in Section 3 below:
 
-1. **In‚Äëapp purchases.** Apple StoreKit and RevenueCat receive the
+1. **In-app purchases.** Apple StoreKit and RevenueCat receive the
    information needed to validate your purchase. Anonymous user ID
-   only ‚Äî no name, email, or note content.
-2. **AI Polish (optional, off by default).** If ‚Äî and only if ‚Äî you
+   only -- no name, email, or note content.
+2. **AI Polish (optional, off by default).** If -- and only if -- you
    add an Anthropic API key in Settings *and* explicitly grant
    permission on the consent dialog the first time you tap Polish,
    Lex sends the raw text transcript of that single note to
    Anthropic, PBC for cleanup. You can revoke consent at any time
-   in Settings ‚Üí AI Polish.
+   in Settings -> AI Polish.
 
 ---
 
@@ -40,17 +40,17 @@ device, and both are covered in detail in Section 3 below:
 The following information is processed entirely on your iPhone or iPad
 and is not transmitted to us or to any third party:
 
-- **Note content** ‚Äî text, handwriting, sketches, attached images,
+- **Note content** -- text, handwriting, sketches, attached images,
   audio recordings, and any metadata you add to a note.
-- **Voice input** ‚Äî when you tap the microphone, audio is captured and
-  transcribed to text using **Apple's on‚Äëdevice Speech Recognition
+- **Voice input** -- when you tap the microphone, audio is captured and
+  transcribed to text using **Apple's on-device Speech Recognition
   framework**. The audio is processed locally; transcripts are written
   to the note you are editing and stay there.
-- **Photos and camera captures** ‚Äî images you import or capture for a
+- **Photos and camera captures** -- images you import or capture for a
   note are stored in Lex's local sandbox. Optical character recognition
-  (OCR) is performed on‚Äëdevice using **Google ML Kit Text Recognition
+  (OCR) is performed on-device using **Google ML Kit Text Recognition
   for iOS**, which runs locally and does not send images to Google.
-- **App preferences** ‚Äî theme, paper, brush, focus‚Äësound choice, and
+- **App preferences** -- theme, paper, brush, focus-sound choice, and
   similar settings.
 
 These items live in iOS app storage, are included in your iCloud Device
@@ -61,10 +61,10 @@ Lex), and are removed when you delete Lex from your device.
 
 ## 3. Data shared with third parties
 
-We use a small number of third‚Äëparty services that are necessary to
+We use a small number of third-party services that are necessary to
 deliver core features. We share only what each service needs.
 
-### 3.1 Apple ‚Äî In‚ÄëApp Purchases and StoreKit
+### 3.1 Apple -- In-App Purchases and StoreKit
 When you buy a stationery pack, brush pack, sound pack, template, or a
 **Lex Pro** subscription, the transaction is handled by Apple through
 StoreKit. We do not see your payment card, full Apple ID, or billing
@@ -73,7 +73,7 @@ purchase. Apple's privacy practices for App Store transactions are
 covered by the
 [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 
-### 3.2 RevenueCat ‚Äî purchase verification
+### 3.2 RevenueCat -- purchase verification
 We use **RevenueCat, Inc.** to validate App Store receipts and to
 unlock paid content across your devices. RevenueCat receives:
 
@@ -92,22 +92,22 @@ you choose (Files, Photos, Mail, AirDrop, Drive, Dropbox, etc.). Lex
 does not see what happens after the share sheet. The privacy policy
 of the destination app applies once the file is handed off.
 
-### 3.4 Anthropic ‚Äî AI Polish (optional, off by default)
+### 3.4 Anthropic -- AI Polish (optional, off by default)
 
 Lex includes an optional feature called **AI Polish**. When enabled,
 Lex sends the raw text transcript of a note you have chosen to polish
-to **Anthropic, PBC** ("Anthropic") ‚Äî the company that operates the
+to **Anthropic, PBC** ("Anthropic") -- the company that operates the
 Claude API. Anthropic's polished response is written back into your
 note, replacing the unformatted transcript.
 
 AI Polish is **off by default**. Two affirmative steps are required
 before any text leaves your device:
 
-1. You add your own Anthropic API key in **Settings ‚Üí AI Polish**.
+1. You add your own Anthropic API key in **Settings -> AI Polish**.
 2. The first time Lex is about to send a transcript, Lex shows a
    consent dialog summarising what is sent, who receives it, and the
    purpose. Polish only proceeds if you tap "Allow & polish". A
-   decline falls back to Lex's offline rule-based polish ‚Äî nothing
+   decline falls back to Lex's offline rule-based polish -- nothing
    leaves the device.
 
 **What is sent to Anthropic:**
@@ -136,14 +136,14 @@ and their API usage policies at
 [https://www.anthropic.com/legal/aup](https://www.anthropic.com/legal/aup).
 
 **Revoking consent:** You can revoke consent at any time by opening
-**Settings ‚Üí AI Polish** and tapping **"Clear & revoke consent"**.
+**Settings -> AI Polish** and tapping **"Clear & revoke consent"**.
 This removes both your saved API key and the consent flag from
 Lex's local storage. The next time you (or another user of the
 device) attempts AI Polish, Lex will re-prompt for consent before
 any data is sent.
 
 We do **not** use any analytics, advertising, attribution, crash
-reporting, or A/B‚Äëtesting SDK in the iOS build of Lex.
+reporting, or A/B-testing SDK in the iOS build of Lex.
 
 ---
 
@@ -159,7 +159,7 @@ tracking activity as Apple defines it.
 
 Lex is rated 4+ in the App Store. We do not knowingly collect personal
 information from children. The features that handle content (notes,
-voice, camera, photos) operate on‚Äëdevice, so no child‚Äëidentifying data
+voice, camera, photos) operate on-device, so no child-identifying data
 is sent to us.
 
 If you are a parent or guardian and want to confirm what is stored on
@@ -174,14 +174,14 @@ Because Lex does not maintain user accounts and does not collect
 personal data on our servers, there is no profile to access, modify,
 or delete on our side. You can:
 
-- **Stop voice transcription** ‚Äî revoke microphone or speech
-  recognition access in **Settings ‚Üí Privacy & Security ‚Üí Microphone /
+- **Stop voice transcription** -- revoke microphone or speech
+  recognition access in **Settings -> Privacy & Security -> Microphone /
   Speech Recognition**.
-- **Stop camera or photo access** ‚Äî revoke in **Settings ‚Üí Privacy &
-  Security ‚Üí Camera / Photos**.
-- **Restore purchases** ‚Äî Settings inside Lex ‚Üí "Restore Purchases"
-  asks Apple and RevenueCat to re‚Äëverify any active entitlements.
-- **Delete all local data** ‚Äî uninstall Lex from your device. iOS
+- **Stop camera or photo access** -- revoke in **Settings -> Privacy &
+  Security -> Camera / Photos**.
+- **Restore purchases** -- Settings inside Lex -> "Restore Purchases"
+  asks Apple and RevenueCat to re-verify any active entitlements.
+- **Delete all local data** -- uninstall Lex from your device. iOS
   removes the app's container, including notes, audio, photos, and
   preferences.
 
@@ -193,17 +193,17 @@ anonymous purchase record they hold for your installation:
 
 ## 7. International users
 
-Lex is available worldwide through the App Store. The on‚Äëdevice
+Lex is available worldwide through the App Store. The on-device
 processing model means your content is governed by the privacy laws of
 your jurisdiction and Apple's regional terms.
 
 For users in the European Economic Area, the United Kingdom, and
 Switzerland, the lawful bases for the limited processing we perform
-are: (a) performance of a contract ‚Äî fulfilling your in‚Äëapp purchase;
+are: (a) performance of a contract -- fulfilling your in-app purchase;
 and (b) our legitimate interest in operating and securing the app.
 
 For California residents (CCPA / CPRA): we do not sell or share
-personal information for cross‚Äëcontext behavioral advertising.
+personal information for cross-context behavioral advertising.
 
 ---
 
