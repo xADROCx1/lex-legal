@@ -1,11 +1,11 @@
-# Lex -- Privacy Policy
+# Lex Notes -- Privacy Policy
 
 **Effective date:** April 30, 2026
 **Last updated:** May 3, 2026
 
-Lex ("the App") is published by **Misfits Studios** ("we", "us", "our").
-This Privacy Policy explains what data Lex collects, how it is used,
-and the choices you have. It applies to the iOS version of Lex
+Lex Notes ("the App") is published by **Misfits Studios** ("we", "us", "our").
+This Privacy Policy explains what data Lex Notes collects, how it is used,
+and the choices you have. It applies to the iOS version of Lex Notes
 distributed through the Apple App Store.
 
 If you have questions about this policy you can reach us at
@@ -15,7 +15,7 @@ If you have questions about this policy you can reach us at
 
 ## 1. The short version
 
-Lex is a notes app. The notes you write, draw, and dictate stay on
+Lex Notes is a notes app. The notes you write, draw, and dictate stay on
 your device. We do not run user accounts, we do not collect analytics,
 we do not have access to your notes, and we do not sell personal
 data.
@@ -29,13 +29,13 @@ device, and both are covered in detail in Section 3 below:
 2. **AI Polish (optional, off by default).** If -- and only if -- you
    add an Anthropic API key in Settings *and* explicitly grant
    permission on the consent dialog the first time you tap Polish,
-   Lex sends the raw text transcript of that single note to
+   Lex Notes sends the raw text transcript of that single note to
    Anthropic, PBC for cleanup. You can revoke consent at any time
    in Settings -> AI Polish.
 
 ---
 
-## 2. Data Lex handles on your device only
+## 2. Data Lex Notes handles on your device only
 
 The following information is processed entirely on your iPhone or iPad
 and is not transmitted to us or to any third party:
@@ -47,7 +47,7 @@ and is not transmitted to us or to any third party:
   framework**. The audio is processed locally; transcripts are written
   to the note you are editing and stay there.
 - **Photos and camera captures** -- images you import or capture for a
-  note are stored in Lex's local sandbox. Optical character recognition
+  note are stored in Lex Notes's local sandbox. Optical character recognition
   (OCR) is performed on-device using **Google ML Kit Text Recognition
   for iOS**, which runs locally and does not send images to Google.
 - **App preferences** -- theme, paper, brush, focus-sound choice, and
@@ -55,7 +55,7 @@ and is not transmitted to us or to any third party:
 
 These items live in iOS app storage, are included in your iCloud Device
 Backup if you have one enabled (controlled by your iOS settings, not by
-Lex), and are removed when you delete Lex from your device.
+Lex Notes), and are removed when you delete Lex Notes from your device.
 
 ---
 
@@ -88,14 +88,14 @@ photos. RevenueCat's practices are described in the
 
 ### 3.3 Files, Photos, and share targets
 When you export a note, iOS hands the file to whichever destination
-you choose (Files, Photos, Mail, AirDrop, Drive, Dropbox, etc.). Lex
+you choose (Files, Photos, Mail, AirDrop, Drive, Dropbox, etc.). Lex Notes
 does not see what happens after the share sheet. The privacy policy
 of the destination app applies once the file is handed off.
 
 ### 3.4 Anthropic -- AI Polish (optional, off by default)
 
-Lex includes an optional feature called **AI Polish**. When enabled,
-Lex sends the raw text transcript of a note you have chosen to polish
+Lex Notes includes an optional feature called **AI Polish**. When enabled,
+Lex Notes sends the raw text transcript of a note you have chosen to polish
 to **Anthropic, PBC** ("Anthropic") -- the company that operates the
 Claude API. Anthropic's polished response is written back into your
 note, replacing the unformatted transcript.
@@ -104,10 +104,10 @@ AI Polish is **off by default**. Two affirmative steps are required
 before any text leaves your device:
 
 1. You add your own Anthropic API key in **Settings -> AI Polish**.
-2. The first time Lex is about to send a transcript, Lex shows a
+2. The first time Lex Notes is about to send a transcript, Lex Notes shows a
    consent dialog summarising what is sent, who receives it, and the
    purpose. Polish only proceeds if you tap "Allow & polish". A
-   decline falls back to Lex's offline rule-based polish -- nothing
+   decline falls back to Lex Notes's offline rule-based polish -- nothing
    leaves the device.
 
 **What is sent to Anthropic:**
@@ -124,7 +124,7 @@ before any text leaves your device:
 
 **Recipient:** Anthropic, PBC, accessed at `api.anthropic.com`,
 authenticated with the API key you supplied. Anthropic is the only
-third party in the AI Polish data path; Lex does not route the
+third party in the AI Polish data path; Lex Notes does not route the
 request through any analytics or proxy service.
 
 **Use:** Anthropic processes the request and returns the polished
@@ -138,39 +138,39 @@ and their API usage policies at
 **Revoking consent:** You can revoke consent at any time by opening
 **Settings -> AI Polish** and tapping **"Clear & revoke consent"**.
 This removes both your saved API key and the consent flag from
-Lex's local storage. The next time you (or another user of the
-device) attempts AI Polish, Lex will re-prompt for consent before
+Lex Notes's local storage. The next time you (or another user of the
+device) attempts AI Polish, Lex Notes will re-prompt for consent before
 any data is sent.
 
 We do **not** use any analytics, advertising, attribution, crash
-reporting, or A/B-testing SDK in the iOS build of Lex.
+reporting, or A/B-testing SDK in the iOS build of Lex Notes.
 
 ---
 
 ## 4. App Tracking Transparency (ATT)
 
-Lex does not track you across other apps and websites. We do not
-present an App Tracking Transparency prompt because Lex performs no
+Lex Notes does not track you across other apps and websites. We do not
+present an App Tracking Transparency prompt because Lex Notes performs no
 tracking activity as Apple defines it.
 
 ---
 
 ## 5. Children
 
-Lex is rated 4+ in the App Store. We do not knowingly collect personal
+Lex Notes is rated 4+ in the App Store. We do not knowingly collect personal
 information from children. The features that handle content (notes,
 voice, camera, photos) operate on-device, so no child-identifying data
 is sent to us.
 
 If you are a parent or guardian and want to confirm what is stored on
-your child's device, you can delete the Lex app to remove all of its
+your child's device, you can delete the Lex Notes app to remove all of its
 local data.
 
 ---
 
 ## 6. Your rights and choices
 
-Because Lex does not maintain user accounts and does not collect
+Because Lex Notes does not maintain user accounts and does not collect
 personal data on our servers, there is no profile to access, modify,
 or delete on our side. You can:
 
@@ -179,9 +179,9 @@ or delete on our side. You can:
   Speech Recognition**.
 - **Stop camera or photo access** -- revoke in **Settings -> Privacy &
   Security -> Camera / Photos**.
-- **Restore purchases** -- Settings inside Lex -> "Restore Purchases"
+- **Restore purchases** -- Settings inside Lex Notes -> "Restore Purchases"
   asks Apple and RevenueCat to re-verify any active entitlements.
-- **Delete all local data** -- uninstall Lex from your device. iOS
+- **Delete all local data** -- uninstall Lex Notes from your device. iOS
   removes the app's container, including notes, audio, photos, and
   preferences.
 
@@ -193,7 +193,7 @@ anonymous purchase record they hold for your installation:
 
 ## 7. International users
 
-Lex is available worldwide through the App Store. The on-device
+Lex Notes is available worldwide through the App Store. The on-device
 processing model means your content is governed by the privacy laws of
 your jurisdiction and Apple's regional terms.
 
@@ -214,14 +214,14 @@ device. Communications with Apple's StoreKit and with RevenueCat are
 encrypted in transit using TLS.
 
 No security model is perfect. If you become aware of a security issue
-in Lex, please contact us at **misfits.support@proton.me** and we will
+in Lex Notes, please contact us at **misfits.support@proton.me** and we will
 investigate.
 
 ---
 
 ## 9. Changes to this policy
 
-If we change how Lex handles data, we will update this page and bump
+If we change how Lex Notes handles data, we will update this page and bump
 the **Effective date** at the top. Material changes will also be
 called out in the app's **What's New** notes for that version.
 
@@ -234,5 +234,5 @@ Developer of record: Adam Donovan
 Email: misfits.support@proton.me
 
 This policy was prepared specifically for the App Store distribution
-of Lex. The Google Play version of Lex is governed by a separate
+of Lex Notes. The Google Play version of Lex Notes is governed by a separate
 policy that reflects the corresponding Google services.
